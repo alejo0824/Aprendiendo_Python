@@ -16,3 +16,8 @@
     * Definición de variables de tipo String
     * Métodos para variables de tipo String
     * Manipulación de variables tipo String
+- ### Variables Tipo Númerica
+    * Definición de variables de tipo númericos
+    * Métodos para variables de tipo númericos
+    * Módulo Math 
+    * Calculadora simple 
