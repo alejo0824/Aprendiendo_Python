@@ -12,3 +12,7 @@
   
 -------------
 ## 01 Tipos de Datos 
+- ### Variables tipo String
+    * Definición de variables de tipo String
+    * Métodos para variables de tipo String
+    * Manipulación de variables tipo String
