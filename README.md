@@ -32,3 +32,21 @@
       + For 
       + For else
     + #### Cliclo While
+-------------
+- ## Funciones 
+  Una función es un bloque de código reutilizable que realiza una tarea específica. Las funciones permiten organizar el código de manera modular, lo que facilita la comprensión y el mantenimiento del programa. Una función en Python se define utilizando la palabra clave def, seguida del nombre de la función y paréntesis que pueden contener los parámetros de entrada.Aquí tienes un ejemplo simple de una función en Python:
+
+  ```py
+  def saludar(nombre):
+    """
+    Esta función imprime un saludo personalizado.
+    """
+    print(f"Hola, {nombre}!")
+
+    # Llamada a la función
+    saludar("Alejandro")
+  ```
+
+  Los temas a tratar fueron:
+
+  
