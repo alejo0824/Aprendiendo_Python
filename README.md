@@ -49,4 +49,15 @@
 
   Los temas a tratar fueron:
 
-  
+  +  #### Introducción a funciones 
+      - Parámetros y argumentos
+      - Argumentos Opcionales 
+      - Argumentos nombrados
+      
+  + **X args**: recibir un número variable de argumentos
+  +  **k-words** : Agrupar valores en un diccionario
+  + **Return**: Para devolver el valor de una función
+  + **Alcance**: el Scope en Python
+  + **Depuración** Como depurar en VSC
+
+ 
