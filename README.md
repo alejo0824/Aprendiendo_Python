@@ -33,7 +33,7 @@
       + For else
     + #### Cliclo While
 -------------
-- ## Funciones 
+## 03 Funciones 
   Una función es un bloque de código reutilizable que realiza una tarea específica. Las funciones permiten organizar el código de manera modular, lo que facilita la comprensión y el mantenimiento del programa. Una función en Python se define utilizando la palabra clave def, seguida del nombre de la función y paréntesis que pueden contener los parámetros de entrada.Aquí tienes un ejemplo simple de una función en Python:
 
   ```py
@@ -59,5 +59,17 @@
   + **Return**: Para devolver el valor de una función
   + **Alcance**: el Scope en Python
   + **Depuración** Como depurar en VSC
+---
 
+## 04 Tipos de datos 
+Los tipos de datos en programación se refieren a las categorías o clases de datos que pueden ser utilizadas y manipuladas en un programa. Los tipos de datos definen las características y operaciones que se pueden realizar con los datos. Los lenguajes de programación, incluyendo Python, tienen varios tipos de datos incorporados que se utilizan para representar diferentes tipos de información.
+
+  - ### Listas
+    + Definición y usos de las listas 
+    + Manipulación de listas
+    + Desempaquetar Listas 
+    + Las formas más comunes de iterar una lista
+    + Ordenar listas con la función sort
+    + listas de compresión con el uso de MAP y Filter
+    + Funciones Lambda
  
