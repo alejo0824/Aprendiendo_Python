@@ -70,6 +70,10 @@ Los tipos de datos en programación se refieren a las categorías o clases de da
     + Desempaquetar Listas 
     + Las formas más comunes de iterar una lista
     + Ordenar listas con la función sort
-    + listas de compresión con el uso de MAP y Filter
-    + Funciones Lambda
- 
+    + listas de compresión
+
+  - ### Tuplas
+  - ### Sets
+  - ### Diccionarios
+  - ### Desempaquetamiento 
+  - ### Filas y Pilas 
