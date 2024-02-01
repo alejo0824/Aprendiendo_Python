@@ -54,7 +54,7 @@
       - Argumentos Opcionales 
       - Argumentos nombrados
       
-  + **X args**: recibir un número variable de argumentos
+  + **X args**: recibir un número indeterminado de argumentos
   +  **k-words** : Agrupar valores en un diccionario
   + **Return**: Para devolver el valor de una función
   + **Alcance**: el Scope en Python
@@ -76,4 +76,25 @@ Los tipos de datos en programación se refieren a las categorías o clases de da
   - ### Sets
   - ### Diccionarios
   - ### Desempaquetamiento 
-  - ### Filas y Pilas 
+  - ### Filas y Pilas
+---  
+## 05 Clases 
+  - ### Creación de una clase 
+  - ### Método Constructor 
+  - ### Propiedades "privadas" 
+  - ### Uso del @classmethod
+  - ### Decorador Property y Setter (Forma más sencilla del acceder a una propiedad)
+  - ### Métodos Mágicos
+    + **Comparación de objetos**
+  - ### Contenedores: Objetos dentro de otros objetos
+  - ### Herencia
+    + **Herencia múltiple**
+    + **Anulación de Método**
+    + **Extendiendo tipos nativos de Python** (clase 17)
+  - ### Clases abstractas 
+  - ### Polimorfismo 
+    + **Duck Typing**
+
+
+    
+
