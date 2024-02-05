@@ -94,6 +94,12 @@ Los tipos de datos en programación se refieren a las categorías o clases de da
   - ### Clases abstractas 
   - ### Polimorfismo 
     + **Duck Typing**
+---  
+## 06 Excepciones
+  + Tipos de excepciones
+  + Uso del bloque Else y Finally 
+  + Lanzar excepciones en el código 
+  + Excepciones personalizadas 
 
 
     
