@@ -100,7 +100,10 @@ Los tipos de datos en programación se refieren a las categorías o clases de da
   + Uso del bloque Else y Finally 
   + Lanzar excepciones en el código 
   + Excepciones personalizadas 
-
+---  
+## 07 Módulos
+  + Importando un módulo (usuario) a nuesto código principal(app)
+  + **Archivo \_\_pycache\_\_**: Se genera por Python para almacenar archivos de código fuente compilados en formato de bytecode específico de la versión de Python que está utilizando. Esto se hace para mejorar el rendimiento al evitar la necesidad de recompilar el código fuente cada vez que se ejecuta el programa. **Es para mejorar el rendimiento de carga de módulos**
 
     
 
