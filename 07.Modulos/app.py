@@ -4,7 +4,11 @@ y puede ejecutar cualquier código que sea necesario. Los módulos
 son una forma de organizar y reutilizar el código en Python. """
 
 # Importando el módulo del archivo usuario y sus funciones
-from usuario import guardar, pagar_impuesto
+# from usuario import guardar, pagar_impuesto # DESCOMENTAR
+
+# Importando paquetes
+from usuarios.acciones import guardar
+# NOTA: Varias formas de referenciar paquetes
 
 
 guardar()
