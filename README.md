@@ -109,4 +109,5 @@ Los tipos de datos en programación se refieren a las categorías o clases de da
 ---  
 ## 08 Manejo de Rutas y Directorios 
   + Métodos, propiedades y usos con pathlib 
-  + Manejo de Directorios (Se crean las carpetas "uno" y "dos" para esta demostración). Asegúrate de estar en la terminal en el directorio "08.Rutas" antes de ejecutar el código.
+  + Manejo de Directorios (Se crean las carpetas "uno" y "dos" para esta demostración). Asegúrate de estar en la terminal en la raíz antes de ejecutar el código.
+  + Inyección de depencias con pathlib
