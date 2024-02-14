@@ -111,3 +111,7 @@ Los tipos de datos en programación se refieren a las categorías o clases de da
   + Métodos, propiedades y usos con pathlib 
   + Manejo de Directorios (Se crean las carpetas "uno" y "dos" para esta demostración). Asegúrate de estar en la terminal en la raíz antes de ejecutar el código.
   + Inyección de depencias con pathlib
+---
+
+## 09 Manejo de Archivos
+ + Uso de la fución **ctime** de la kibrería **time** para ver la fecha y hora de la última modificación de un archivo en un formato legible 
