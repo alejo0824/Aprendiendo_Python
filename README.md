@@ -119,3 +119,4 @@ Los tipos de datos en programación se refieren a las categorías o clases de da
  + Manejo de archivos **CSV**: Lectura y escritura 
  + Manejo de archivos **JSON**: Lectura y escritura
  + Manejo de archivos **Comprimidos**: Lectura y escritura
+ + Comprimir y Descomprimir Archivos **ZIP** (No se suben al repositorio los ZIP)
