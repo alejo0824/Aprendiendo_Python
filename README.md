@@ -115,3 +115,5 @@ Los tipos de datos en programación se refieren a las categorías o clases de da
 
 ## 09 Manejo de Archivos
  + Uso de la fución **ctime** de la kibrería **time** para ver la fecha y hora de la última modificación de un archivo en un formato legible 
+ + Lectura y escritura con el archivo "archivo-prueba.txt" a través del la librería **Path** y **Open** 
+ + Manejo de archivos **CSV**
