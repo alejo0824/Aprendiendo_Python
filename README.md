@@ -132,4 +132,4 @@ Los tipos de datos en programación se refieren a las categorías o clases de da
   + **Web Browser:** Proporciona funciones para abrir páginas web en un navegador web predeterminado
   + **Manejo de Fechas, horas y tiempos :** Desde el módulo nativo datetime y sus paquetes datetime, timedelta
   + **Random:**  proporciona funciones para trabajar con la generación de números aleatorios y operaciones relacionadas con la aleatoriedad
-  + **Cli:**
+  + **Cli:** Aplicaciones para la línea de comandos. *Se debe ejecutar desde consola y dentro de la carpeta* 
