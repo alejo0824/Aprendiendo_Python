@@ -126,3 +126,8 @@ Los tipos de datos en programación se refieren a las categorías o clases de da
  + Creación de una base de datos
  + Formas de hacer una consulta con Python (con **open-commit** y **with**)
  + Leer información en una base de datos
+ --- 
+ ## 11 Módulos Nativos 
+ on bibliotecas de Python que vienen preinstaladas con la distribución estándar de Python. Estas bibliotecas proporcionan una amplia gama de funcionalidades que van desde operaciones básicas de manipulación de datos hasta la interacción con sistemas operativos, manejo de archivos, acceso a bases de datos, manipulación de cadenas, procesamiento de archivos y mucho más.
+  + **Web Browser:** Proporciona funciones para abrir páginas web en un navegador web predeterminado
+  +**Fechas:**
