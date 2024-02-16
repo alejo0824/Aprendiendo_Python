@@ -125,3 +125,4 @@ Los tipos de datos en programación se refieren a las categorías o clases de da
  Para está sección utilizaremos una sqlite3 como ejemplo ya que se  usa para manejar bases de datos pequeña
  + Creación de una base de datos
  + Formas de hacer una consulta con Python (con **open-commit** y **with**)
+ + Leer información en una base de datos
