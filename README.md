@@ -137,29 +137,30 @@ Los tipos de datos en programación se refieren a las categorías o clases de da
 ---
 
 ## 12 Módulos
-  + **PyPI** es el Índice de Paquetes de Python (Python Package Index, en inglés), un repositorio en línea de software desarrollado y mantenido por la comunidad de Python. PyPI contiene paquetes de software de Python de código abierto que pueden ser instalados utilizando la herramienta pip (pip instala paquetes de Python) que viene incluida con Python desde la versión 3.4 en adelante. Los paquetes alojados en PyPI abarcan una amplia gama de funcionalidades y propósitos, desde herramientas de desarrollo hasta aplicaciones completas, y son una parte esencial del ecosistema de desarrollo de Python.
+  + ### PyPI
+    es el Índice de Paquetes de Python (Python Package Index, en inglés), un repositorio en línea de software desarrollado y mantenido por la comunidad de Python. PyPI contiene paquetes de software de Python de código abierto que pueden ser instalados utilizando la herramienta pip (pip instala paquetes de Python) que viene incluida con Python desde la versión 3.4 en adelante. Los paquetes alojados en PyPI abarcan una amplia gama de funcionalidades y propósitos, desde herramientas de desarrollo hasta aplicaciones completas, y son una parte esencial del ecosistema de desarrollo de Python.
 
-    + **Instalción** Para encontrar un índice de paquetes de Python, puedes buscar en este [Enlace](https://pypi.org/). Por ejemplo, para instalar Django, puedes encontrarlo allí.
+      + **Instalción** Para encontrar un índice de paquetes de Python, puedes buscar en este [Enlace](https://pypi.org/). Por ejemplo, para instalar Django, puedes encontrarlo allí.
 
-      ### Cómo instalar un paquete usando pip en Python
+        #### Cómo instalar un paquete usando pip en Python
 
-      1. Abre una terminal o línea de comandos en tu sistema operativo.
-        
-      2. Utiliza el comando `pip install` seguido del nombre del paquete que deseas instalar. Por ejemplo, para instalar el paquete `requests`, puedes escribir:
+        1. Abre una terminal o línea de comandos en tu sistema operativo.
+          
+        2. Utiliza el comando `pip install` seguido del nombre del paquete que deseas instalar. Por ejemplo, para instalar el paquete `requests`, puedes escribir:
 
-          ```
-          pip install requests
-          ```
+            ```
+            pip install requests
+            ```
 
-      3. Presiona Enter y pip comenzará a descargar e instalar el paquete y sus dependencias automáticamente.
+        3. Presiona Enter y pip comenzará a descargar e instalar el paquete y sus dependencias automáticamente.
 
-      4. Una vez completada la instalación, puedes comenzar a utilizar el paquete en tu código de Python importándolo como cualquier otro módulo. Por ejemplo:
+        4. Una vez completada la instalación, puedes comenzar a utilizar el paquete en tu código de Python importándolo como cualquier otro módulo. Por ejemplo:
 
-          ```python
-          import requests
-          ```
+            ```python
+            import requests
+            ```
 
-      Eso es todo. Ahora tienes el paquete instalado y listo para ser utilizado en tus proyectos de Python.
+        Eso es todo. Ahora tienes el paquete instalado y listo para ser utilizado en tus proyectos de Python.
 
   + ### Crear un ambiente virtual en Python
 
@@ -196,8 +197,3 @@ Los tipos de datos en programación se refieren a las categorías o clases de da
     #### 4. Listo
 
     Ahora estás dentro de tu ambiente virtual. Puedes instalar paquetes específicos de Python y trabajar en tu proyecto sin afectar el entorno global de Python en tu sistema. Cuando termines de trabajar, puedes desactivar el ambiente virtual ejecutando el comando `deactivate`.
-
-
-      
-
-
