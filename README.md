@@ -163,7 +163,7 @@ Los tipos de datos en programación se refieren a las categorías o clases de da
         Eso es todo. Ahora tienes el paquete instalado y listo para ser utilizado en tus proyectos de Python.
 
   + ### Crear un ambiente virtual en Python
-
+  
     #### 1. Instalación de virtualenv
 
     Si aún no tienes instalado `virtualenv`, puedes hacerlo utilizando `pip`, el gestor de paquetes de Python. Abre tu terminal y ejecuta el siguiente comando:
@@ -197,3 +197,30 @@ Los tipos de datos en programación se refieren a las categorías o clases de da
     #### 4. Listo
 
     Ahora estás dentro de tu ambiente virtual. Puedes instalar paquetes específicos de Python y trabajar en tu proyecto sin afectar el entorno global de Python en tu sistema. Cuando termines de trabajar, puedes desactivar el ambiente virtual ejecutando el comando `deactivate`.
+
+
+  + ### Pipenv: Gestión Moderna de Entornos y Dependencias en Python
+
+    "Pipenv" es una herramienta de gestión de entornos y dependencias de Python que proporciona una forma más moderna y simplificada de manejar estos aspectos en comparación con herramientas más antiguas como "virtualenv" y "pip".
+
+      #### Características y Ventajas de Pipenv:
+
+      1. **Gestión de Dependencias Simplificada**:
+        - Combina las funcionalidades de "pip" y "virtualenv" en una sola herramienta, facilitando la gestión de dependencias.
+
+      2. **Gestión Automática de Entornos Virtuales**:
+        - Al iniciar un nuevo proyecto o instalar nuevas dependencias, Pipenv automáticamente crea y gestiona un entorno virtual para el proyecto, eliminando la necesidad de crearlos manualmente.
+
+      3. **Resolución Precisa de Dependencias**:
+        - Utiliza "Pipfile" y "Pipfile.lock" para gestionar las dependencias y sus versiones de forma precisa, garantizando la instalación consistente de dependencias en diferentes entornos.
+
+      4. **Activación Sencilla del Entorno Virtual**:
+        - Proporciona un comando sencillo (`pipenv shell`) para activar el entorno virtual del proyecto, facilitando el trabajo dentro del entorno virtual.
+
+      En resumen, Pipenv es una herramienta popular y potente para gestionar entornos y dependencias de proyectos de Python. Es especialmente útil para simplificar el flujo de trabajo de desarrollo y garantizar la consistencia en la gestión de dependencias en diferentes entornos.
+---
+## 13 Paquetes Populares
+### Configuración de variables de entorno 
+Las variables de entorno en Python son configuraciones a nivel del sistema operativo que proporcionan información específica que los programas pueden utilizar durante su ejecución, accesibles a través del módulo os utilizando os.environ['NOMBRE_VARIABLE']. 
+
+**NOTA: Se crea el archivo .env para las variables de entorno pero no se sube al repositorio. También se crea un ambiente virtual con pipenv**
