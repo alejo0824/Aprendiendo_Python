@@ -229,3 +229,6 @@ Las variables de entorno en Python son configuraciones a nivel del sistema opera
     SendGrid es una plataforma en la nube que permite a empresas enviar correos electrónicos de manera confiable y escalable. Ofrece una API fácil de usar, análisis detallados y plantillas personalizables para facilitar el envío y seguimiento de correos electrónicos transaccionales y de marketing.
   - #### SMS con Twilio
     Twilio es una plataforma de comunicaciones en la nube que permite a los desarrolladores integrar fácilmente funcionalidades de mensajería y voz en sus aplicaciones utilizando APIs simples y potentes. Algunos de los servicios que ofrece 
+
+  - #### API REST con la librería Requests
+    Una API REST (Representational State Transfer) es un conjunto de principios de diseño arquitectónico que se utiliza para crear servicios web que sean escalables, flexibles y fáciles de mantener. Este enfoque se basa en el concepto de recursos, los cuales son identificados mediante URLs (Uniform Resource Locators), y la interacción con estos recursos a través de métodos HTTP estándar, como GET, POST, PUT, DELETE, entre otros.  
