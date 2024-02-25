@@ -223,8 +223,9 @@ Los tipos de datos en programación se refieren a las categorías o clases de da
 ### Configuración de variables de entorno 
 Las variables de entorno en Python son configuraciones a nivel del sistema operativo que proporcionan información específica que los programas pueden utilizar durante su ejecución, accesibles a través del módulo os utilizando os.environ['NOMBRE_VARIABLE']. 
 
-**NOTA: Se crea el archivo .env para las variables de entorno pero no se sube al repositorio. También se crea un ambiente virtual con pipenv**
+**NOTA: Se crea el archivo .env para las variables de entorno pero no se sube al repositorio. También se crea un ambiente virtual con pipenv y estar dentro de la carpeta '13.Paquetes-Populares'**
 
   - #### Sendgrid
     SendGrid es una plataforma en la nube que permite a empresas enviar correos electrónicos de manera confiable y escalable. Ofrece una API fácil de usar, análisis detallados y plantillas personalizables para facilitar el envío y seguimiento de correos electrónicos transaccionales y de marketing.
-  - #### SMS
+  - #### SMS con Twilio
+    Twilio es una plataforma de comunicaciones en la nube que permite a los desarrolladores integrar fácilmente funcionalidades de mensajería y voz en sus aplicaciones utilizando APIs simples y potentes. Algunos de los servicios que ofrece 
