@@ -231,4 +231,19 @@ Las variables de entorno en Python son configuraciones a nivel del sistema opera
     Twilio es una plataforma de comunicaciones en la nube que permite a los desarrolladores integrar fácilmente funcionalidades de mensajería y voz en sus aplicaciones utilizando APIs simples y potentes. Algunos de los servicios que ofrece 
 
   - #### API REST con la librería Requests
-    Una API REST (Representational State Transfer) es un conjunto de principios de diseño arquitectónico que se utiliza para crear servicios web que sean escalables, flexibles y fáciles de mantener. Este enfoque se basa en el concepto de recursos, los cuales son identificados mediante URLs (Uniform Resource Locators), y la interacción con estos recursos a través de métodos HTTP estándar, como GET, POST, PUT, DELETE, entre otros.  
+    Una API REST (*Representational State Transfer*) es un conjunto de principios de diseño arquitectónico que se utiliza para crear servicios web que sean escalables, flexibles y fáciles de mantener. Este enfoque se basa en el concepto de recursos, los cuales son identificados mediante URLs (Uniform Resource Locators), y la interacción con estos recursos a través de métodos HTTP estándar, como GET, POST, PUT, DELETE, entre otros.
+
+    Aquí hay algunas características clave de una API REST:
+
+    1. **Basada en recursos**: En una API REST, los recursos (como usuarios, productos, publicaciones de blog, etc.) son el centro de atención. Cada recurso se identifica mediante una URL única, y la manipulación de estos recursos se realiza a través de las operaciones CRUD (Crear, Leer, Actualizar, Eliminar) utilizando métodos HTTP.
+
+    2. **Sin estado (stateless)**: Las solicitudes a una API REST no mantienen estado entre ellas. Cada solicitud contiene toda la información necesaria para procesarla, lo que hace que las APIs REST sean altamente escalables y fáciles de gestionar.
+
+    3. **Interfaz uniforme**: Las APIs REST utilizan un conjunto uniforme de operaciones estándar de HTTP, como GET para obtener datos, POST para crear nuevos recursos, PUT para actualizar recursos existentes y DELETE para eliminar recursos.
+
+    4. **Formato de datos flexible**: Los datos intercambiados entre el cliente y el servidor pueden estar en varios formatos, como JSON (JavaScript Object Notation) o XML (eXtensible Markup Language), aunque JSON es más comúnmente utilizado debido a su simplicidad y ligereza.
+
+    5. **Independencia de la capa de transporte**: Las APIs REST pueden utilizar cualquier protocolo de transporte, pero son más comúnmente implementadas sobre HTTP debido a su amplia disponibilidad y facilidad de uso.
+
+    En resumen, una API REST proporciona una forma estandarizada y flexible de intercambiar datos entre sistemas distribuidos a través de la web, utilizando los principios de la arquitectura REST. Esto permite una integración eficiente entre aplicaciones y servicios, lo que es fundamental en el desarrollo de aplicaciones modernas y escalables.
+  
