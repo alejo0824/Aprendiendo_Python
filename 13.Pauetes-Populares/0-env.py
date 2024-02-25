@@ -20,9 +20,10 @@ en diferentes entornos. Además, proporcionan una forma de compartir informació
 de configuración entre diferentes programas o scripts en un sistema. """
 
 import os
+from sendgrid.helpers.mail import Mail
 
 # Obtener el valor de la variable de entorno API
 apikey = os.environ.get('MI_LLAVE')
 
-# Imprimir el valor de la variable API
-print("El valor de la variable API es:", apikey)
+except Exception as e:
+    print(e)
