@@ -246,4 +246,23 @@ Las variables de entorno en Python son configuraciones a nivel del sistema opera
     5. **Independencia de la capa de transporte**: Las APIs REST pueden utilizar cualquier protocolo de transporte, pero son más comúnmente implementadas sobre HTTP debido a su amplia disponibilidad y facilidad de uso.
 
     En resumen, una API REST proporciona una forma estandarizada y flexible de intercambiar datos entre sistemas distribuidos a través de la web, utilizando los principios de la arquitectura REST. Esto permite una integración eficiente entre aplicaciones y servicios, lo que es fundamental en el desarrollo de aplicaciones modernas y escalables.
-  
+- #### El web scraping con BeautifulSoup4
+  Es la práctica de automatizar la extracción de datos de páginas web. Utiliza programas para recorrer sitios web y extraer información como texto, imágenes o enlaces. Se utiliza para diversos fines, como análisis de datos, seguimiento de precios o monitoreo de la competencia. Es importante tener en cuenta las consideraciones legales y éticas al realizar web scraping, ya que puede haber restricciones por parte de los sitios web en cuanto a la recopilación de sus datos.
+
+    
+  Con BeautifulSoup4, una popular biblioteca de Python para analizar y extraer datos de HTML y XML, el proceso de web scraping se simplifica
+
+- #### Excel con openpyxl
+  **openpyxl** es una biblioteca de Python que permite trabajar con archivos de Excel (.xlsx). Permite crear nuevos archivos de Excel, leer datos de archivos existentes, modificar archivos de Excel y escribir datos en ellos.
+
+  Algunas de las funcionalidades principales de **openpyxl** incluyen:
+
+  1. **Crear archivos de Excel**: Permite crear nuevos archivos de Excel desde cero, con hojas de cálculo y celdas personalizadas.
+
+  2. **Leer datos de archivos de Excel**: Permite leer datos de archivos de Excel existentes, incluidos valores de celdas, formatos, fórmulas y más.
+
+  3. **Modificar archivos de Excel**: Permite modificar archivos de Excel existentes, como cambiar valores de celdas, agregar o eliminar hojas de cálculo, aplicar estilos y formatos, y más.
+
+  4. **Escribir datos en archivos de Excel**: Permite escribir datos en archivos de Excel, como valores de celdas, fórmulas, estilos y más.
+
+  **openpyxl** es una biblioteca poderosa y ampliamente utilizada para manipular archivos de Excel en Python. Es particularmente útil para tareas como análisis de datos, generación de informes, automatización de tareas de oficina y más.
