@@ -266,3 +266,25 @@ Las variables de entorno en Python son configuraciones a nivel del sistema opera
   4. **Escribir datos en archivos de Excel**: Permite escribir datos en archivos de Excel, como valores de celdas, fórmulas, estilos y más.
 
   **openpyxl** es una biblioteca poderosa y ampliamente utilizada para manipular archivos de Excel en Python. Es particularmente útil para tareas como análisis de datos, generación de informes, automatización de tareas de oficina y más.
+
+- #### Selenium 
+  Es una herramienta de automatización de pruebas diseñada principalmente para realizar pruebas de software en aplicaciones web. Permite a los usuarios automatizar las acciones del navegador web, como hacer clic en enlaces y botones, rellenar formularios, navegar por páginas web y extraer información.
+
+  Algunas características importantes de Selenium incluyen:
+
+  1. **Soporte multiplataforma**: Selenium es compatible con múltiples sistemas operativos como Windows, macOS y Linux.
+
+  2. **Soporte multi-navegador**: Puede automatizar acciones en varios navegadores web populares como Chrome, Firefox, Safari, Edge e Internet Explorer.
+
+  3. **Lenguajes de programación compatibles**: Selenium es compatible con varios lenguajes de programación, incluidos Python, Java, C#, Ruby y JavaScript.
+
+  4. **Interacciones con elementos web**: Permite interactuar con elementos HTML como clics, relleno de formularios, selección de opciones, envío de datos, etc.
+
+  5. **Esperas implícitas y explícitas**: Selenium proporciona métodos para esperar la carga de elementos en una página web, lo que ayuda a manejar tiempos de espera y asegurar una ejecución estable de las pruebas.
+
+  6. **Soporte para pruebas de regresión y pruebas funcionales**: Selenium es ampliamente utilizado para realizar pruebas de regresión y pruebas funcionales en aplicaciones web para garantizar que funcionen correctamente después de los cambios en el código.
+
+  En resumen, Selenium es una herramienta poderosa y versátil para la automatización de pruebas en aplicaciones web, que ayuda a mejorar la eficiencia, la precisión y la calidad del software al permitir la ejecución de pruebas repetitivas de manera automatizada.
+---
+
+## 14 Django
