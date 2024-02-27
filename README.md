@@ -331,5 +331,30 @@ Django es un framework de desarrollo web de alto nivel y de código abierto, esc
     ```
 
    Esto iniciará un servidor web local que puedes visitar en tu navegador en la dirección `http://127.0.0.1:8000/`.
+### Modelo-Vista-Controlador (MVC)
 
+El patrón Modelo-Vista-Controlador (MVC) es un diseño arquitectónico comúnmente utilizado en el desarrollo de aplicaciones web. Aquí está una descripción básica de cada componente:
 
+1. **Modelo (Model)**:
+   - Representa los datos y la lógica del negocio de la aplicación.
+   - Interactúa con la base de datos para recuperar, almacenar y manipular los datos.
+   - No sabe nada sobre la interfaz de usuario o cómo se presentan los datos.
+
+  + #### Migraciones en Django
+
+    En Django, las migraciones son una forma de propagar cambios en la estructura de la base de datos de tu aplicación de forma segura y consistente. Aquí tienes una explicación básica de cómo funcionan las migraciones en Django:
+
+    1. **Definición de modelos**: Cuando defines modelos en Django (por ejemplo, en el archivo `models.py` de tu aplicación), estás esencialmente definiendo la estructura de tus tablas de base de datos y cómo interactuar con ellas a través de objetos Python.
+
+    2. **Creación de migraciones**: Después de definir o modificar tus modelos, debes crear migraciones que describan los cambios necesarios en la base de datos para reflejar esos modelos. Puedes hacer esto ejecutando el comando `python manage.py makemigrations` en tu terminal dentro del directorio de tu proyecto Django. Esto generará archivos de migración en el directorio `migrations` de cada aplicación.
+
+    3. **Aplicación de migraciones**: Una vez que has creado las migraciones, necesitas aplicarlas a la base de datos utilizando el comando `python manage.py migrate`. Esto ejecutará las migraciones pendientes y actualizará la estructura de la base de datos de acuerdo con tus modelos.
+
+    4. **Estado de las migraciones**: Puedes verificar el estado de las migraciones en tu proyecto ejecutando `python manage.py showmigrations`. Esto te mostrará una lista de todas las migraciones y su estado (aplicadas o no aplicadas) en tu proyecto.
+
+    5. **Revertir migraciones**: En caso de que necesites revertir una migración, puedes hacerlo utilizando el comando `python manage.py migrate <app_label> <migration_name>`. Esto deshará los cambios realizados por una migración específica.
+
+    Las migraciones en Django son una herramienta poderosa que simplifica enormemente la administración y evolución de la base de datos en tu aplicación. Permiten una gestión eficiente de los cambios en la estructura de la base de datos mientras garantizan la integridad de los datos y la consistencia del esquema.
+
+    
+  + #### Conexión a la base de Datos 
