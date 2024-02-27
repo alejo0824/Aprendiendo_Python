@@ -14,8 +14,13 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+# path se utiliza para definir rutas URL y include se utiliza para incluir las URL de otras aplicaciones.
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # Define la ruta URL para acceder a las URLs de la aplicación "productos".
+    # Cuando accedes a http://tu-sitio.com/productos/, las URLs definidas en el
+    # archivo productos.urls serán incluidas y manejadas por esta ruta.
+    path('productos/', include('productos.urls')),
 ]
