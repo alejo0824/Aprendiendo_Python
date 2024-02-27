@@ -60,7 +60,6 @@
   + **Alcance**: el Scope en Python
   + **Depuración** Como depurar en VSC
 ---
-
 ## 04 Tipos de datos 
 Los tipos de datos en programación se refieren a las categorías o clases de datos que pueden ser utilizadas y manipuladas en un programa. Los tipos de datos definen las características y operaciones que se pueden realizar con los datos. Los lenguajes de programación, incluyendo Python, tienen varios tipos de datos incorporados que se utilizan para representar diferentes tipos de información.
 
@@ -112,7 +111,6 @@ Los tipos de datos en programación se refieren a las categorías o clases de da
   + Manejo de Directorios (Se crean las carpetas "uno" y "dos" para esta demostración). Asegúrate de estar en la terminal en la raíz antes de ejecutar el código.
   + Inyección de depencias con pathlib
 ---
-
 ## 09 Manejo de Archivos
  + Uso de la fución **ctime** de la kibrería **time** para ver la fecha y hora de la última modificación de un archivo en un formato legible 
  + Lectura y escritura con el archivo "archivo-prueba.txt" a través del la librería **Path** y **Open** 
@@ -121,13 +119,13 @@ Los tipos de datos en programación se refieren a las categorías o clases de da
  + Manejo de archivos **Comprimidos**: Lectura y escritura
  + Comprimir y Descomprimir Archivos **ZIP** (No se suben al repositorio los ZIP)
  ---
- ## 10 SQL 
+## 10 SQL 
  Para está sección utilizaremos una sqlite3 como ejemplo ya que se  usa para manejar bases de datos pequeña
  + Creación de una base de datos
  + Formas de hacer una consulta con Python (con **open-commit** y **with**)
  + Leer información en una base de datos
  --- 
- ## 11 Módulos Nativos 
+## 11 Módulos Nativos 
  Son bibliotecas de Python que vienen preinstaladas con la distribución estándar de Python. Estas bibliotecas proporcionan una amplia gama de funcionalidades que van desde operaciones básicas de manipulación de datos hasta la interacción con sistemas operativos, manejo de archivos, acceso a bases de datos, manipulación de cadenas, procesamiento de archivos y mucho más.
   + **Web Browser:** Proporciona funciones para abrir páginas web en un navegador web predeterminado
   + **Manejo de Fechas, horas y tiempos :** Desde el módulo nativo datetime y sus paquetes datetime, timedelta
@@ -135,7 +133,6 @@ Los tipos de datos en programación se refieren a las categorías o clases de da
   + **Cli:** Aplicaciones para la línea de comandos. *Se debe ejecutar desde consola y dentro de la carpeta* 
   + **Envio de Correos** 
 ---
-
 ## 12 Módulos
   + ### PyPI
     es el Índice de Paquetes de Python (Python Package Index, en inglés), un repositorio en línea de software desarrollado y mantenido por la comunidad de Python. PyPI contiene paquetes de software de Python de código abierto que pueden ser instalados utilizando la herramienta pip (pip instala paquetes de Python) que viene incluida con Python desde la versión 3.4 en adelante. Los paquetes alojados en PyPI abarcan una amplia gama de funcionalidades y propósitos, desde herramientas de desarrollo hasta aplicaciones completas, y son una parte esencial del ecosistema de desarrollo de Python.
@@ -199,23 +196,23 @@ Los tipos de datos en programación se refieren a las categorías o clases de da
     Ahora estás dentro de tu ambiente virtual. Puedes instalar paquetes específicos de Python y trabajar en tu proyecto sin afectar el entorno global de Python en tu sistema. Cuando termines de trabajar, puedes desactivar el ambiente virtual ejecutando el comando `deactivate`.
 
 
-  + ### Pipenv: Gestión Moderna de Entornos y Dependencias en Python
+  ### Pipenv: Gestión Moderna de Entornos y Dependencias en Python
 
-    "Pipenv" es una herramienta de gestión de entornos y dependencias de Python que proporciona una forma más moderna y simplificada de manejar estos aspectos en comparación con herramientas más antiguas como "virtualenv" y "pip".
+  "Pipenv" es una herramienta de gestión de entornos y dependencias de Python que proporciona una forma más moderna y simplificada de manejar estos aspectos en comparación con herramientas más antiguas como "virtualenv" y "pip".
 
-      #### Características y Ventajas de Pipenv:
+  #### Características y Ventajas de Pipenv:
 
-      1. **Gestión de Dependencias Simplificada**:
-        - Combina las funcionalidades de "pip" y "virtualenv" en una sola herramienta, facilitando la gestión de dependencias.
+  1. **Gestión de Dependencias Simplificada**:
+    - Combina las funcionalidades de "pip" y "virtualenv" en una sola herramienta, facilitando la gestión de dependencias.
 
-      2. **Gestión Automática de Entornos Virtuales**:
-        - Al iniciar un nuevo proyecto o instalar nuevas dependencias, Pipenv automáticamente crea y gestiona un entorno virtual para el proyecto, eliminando la necesidad de crearlos manualmente.
+  2. **Gestión Automática de Entornos Virtuales**:
+    - Al iniciar un nuevo proyecto o instalar nuevas dependencias, Pipenv automáticamente crea y gestiona un entorno virtual para el proyecto, eliminando la necesidad de crearlos manualmente.
 
-      3. **Resolución Precisa de Dependencias**:
-        - Utiliza "Pipfile" y "Pipfile.lock" para gestionar las dependencias y sus versiones de forma precisa, garantizando la instalación consistente de dependencias en diferentes entornos.
+  3. **Resolución Precisa de Dependencias**:
+    - Utiliza "Pipfile" y "Pipfile.lock" para gestionar las dependencias y sus versiones de forma precisa, garantizando la instalación consistente de dependencias en diferentes entornos.
 
-      4. **Activación Sencilla del Entorno Virtual**:
-        - Proporciona un comando sencillo (`pipenv shell`) para activar el entorno virtual del proyecto, facilitando el trabajo dentro del entorno virtual.
+  4. **Activación Sencilla del Entorno Virtual**:
+    - Proporciona un comando sencillo (`pipenv shell`) para activar el entorno virtual del proyecto, facilitando el trabajo dentro del entorno virtual.
 
       En resumen, Pipenv es una herramienta popular y potente para gestionar entornos y dependencias de proyectos de Python. Es especialmente útil para simplificar el flujo de trabajo de desarrollo y garantizar la consistencia en la gestión de dependencias en diferentes entornos.
 ---
@@ -225,34 +222,34 @@ Las variables de entorno en Python son configuraciones a nivel del sistema opera
 
 **NOTA: Se crea el archivo .env para las variables de entorno pero no se sube al repositorio. También se crea un ambiente virtual con pipenv y estar dentro de la carpeta '13.Paquetes-Populares'**
 
-  - #### Sendgrid
-    SendGrid es una plataforma en la nube que permite a empresas enviar correos electrónicos de manera confiable y escalable. Ofrece una API fácil de usar, análisis detallados y plantillas personalizables para facilitar el envío y seguimiento de correos electrónicos transaccionales y de marketing.
-  - #### SMS con Twilio
-    Twilio es una plataforma de comunicaciones en la nube que permite a los desarrolladores integrar fácilmente funcionalidades de mensajería y voz en sus aplicaciones utilizando APIs simples y potentes. Algunos de los servicios que ofrece 
+  #### Sendgrid
+  SendGrid es una plataforma en la nube que permite a empresas enviar correos electrónicos de manera confiable y escalable. Ofrece una API fácil de usar, análisis detallados y plantillas personalizables para facilitar el envío y seguimiento de correos electrónicos transaccionales y de marketing.
+  #### SMS con Twilio
+  Twilio es una plataforma de comunicaciones en la nube que permite a los desarrolladores integrar fácilmente funcionalidades de mensajería y voz en sus aplicaciones utilizando APIs simples y potentes. Algunos de los servicios que ofrece 
 
-  - #### API REST con la librería Requests
-    Una API REST (*Representational State Transfer*) es un conjunto de principios de diseño arquitectónico que se utiliza para crear servicios web que sean escalables, flexibles y fáciles de mantener. Este enfoque se basa en el concepto de recursos, los cuales son identificados mediante URLs (Uniform Resource Locators), y la interacción con estos recursos a través de métodos HTTP estándar, como GET, POST, PUT, DELETE, entre otros.
+  #### API REST con la librería Requests
+  Una API REST (*Representational State Transfer*) es un conjunto de principios de diseño arquitectónico que se utiliza para crear servicios web que sean escalables, flexibles y fáciles de mantener. Este enfoque se basa en el concepto de recursos, los cuales son identificados mediante URLs (Uniform Resource Locators), y la interacción con estos recursos a través de métodos HTTP estándar, como GET, POST, PUT, DELETE, entre otros.
 
-    Aquí hay algunas características clave de una API REST:
+  Aquí hay algunas características clave de una API REST:
 
-    1. **Basada en recursos**: En una API REST, los recursos (como usuarios, productos, publicaciones de blog, etc.) son el centro de atención. Cada recurso se identifica mediante una URL única, y la manipulación de estos recursos se realiza a través de las operaciones CRUD (Crear, Leer, Actualizar, Eliminar) utilizando métodos HTTP.
+  1. **Basada en recursos**: En una API REST, los recursos (como usuarios, productos, publicaciones de blog, etc.) son el centro de atención. Cada recurso se identifica mediante una URL única, y la manipulación de estos recursos se realiza a través de las operaciones CRUD (Crear, Leer, Actualizar, Eliminar) utilizando métodos HTTP.
 
-    2. **Sin estado (stateless)**: Las solicitudes a una API REST no mantienen estado entre ellas. Cada solicitud contiene toda la información necesaria para procesarla, lo que hace que las APIs REST sean altamente escalables y fáciles de gestionar.
+  2. **Sin estado (stateless)**: Las solicitudes a una API REST no mantienen estado entre ellas. Cada solicitud contiene toda la información necesaria para procesarla, lo que hace que las APIs REST sean altamente escalables y fáciles de gestionar.
 
-    3. **Interfaz uniforme**: Las APIs REST utilizan un conjunto uniforme de operaciones estándar de HTTP, como GET para obtener datos, POST para crear nuevos recursos, PUT para actualizar recursos existentes y DELETE para eliminar recursos.
+  3. **Interfaz uniforme**: Las APIs REST utilizan un conjunto uniforme de operaciones estándar de HTTP, como GET para obtener datos, POST para crear nuevos recursos, PUT para actualizar recursos existentes y DELETE para eliminar recursos.
 
-    4. **Formato de datos flexible**: Los datos intercambiados entre el cliente y el servidor pueden estar en varios formatos, como JSON (JavaScript Object Notation) o XML (eXtensible Markup Language), aunque JSON es más comúnmente utilizado debido a su simplicidad y ligereza.
+  4. **Formato de datos flexible**: Los datos intercambiados entre el cliente y el servidor pueden estar en varios formatos, como JSON (JavaScript Object Notation) o XML (eXtensible Markup Language), aunque JSON es más comúnmente utilizado debido a su simplicidad y ligereza.
 
-    5. **Independencia de la capa de transporte**: Las APIs REST pueden utilizar cualquier protocolo de transporte, pero son más comúnmente implementadas sobre HTTP debido a su amplia disponibilidad y facilidad de uso.
+  5. **Independencia de la capa de transporte**: Las APIs REST pueden utilizar cualquier protocolo de transporte, pero son más comúnmente implementadas sobre HTTP debido a su amplia disponibilidad y facilidad de uso.
 
-    En resumen, una API REST proporciona una forma estandarizada y flexible de intercambiar datos entre sistemas distribuidos a través de la web, utilizando los principios de la arquitectura REST. Esto permite una integración eficiente entre aplicaciones y servicios, lo que es fundamental en el desarrollo de aplicaciones modernas y escalables.
-- #### El web scraping con BeautifulSoup4
-  Es la práctica de automatizar la extracción de datos de páginas web. Utiliza programas para recorrer sitios web y extraer información como texto, imágenes o enlaces. Se utiliza para diversos fines, como análisis de datos, seguimiento de precios o monitoreo de la competencia. Es importante tener en cuenta las consideraciones legales y éticas al realizar web scraping, ya que puede haber restricciones por parte de los sitios web en cuanto a la recopilación de sus datos.
+  En resumen, una API REST proporciona una forma estandarizada y flexible de intercambiar datos entre sistemas distribuidos a través de la web, utilizando los principios de la arquitectura REST. Esto permite una integración eficiente entre aplicaciones y servicios, lo que es fundamental en el desarrollo de aplicaciones modernas y escalables.
+#### El web scraping con BeautifulSoup4
+Es la práctica de automatizar la extracción de datos de páginas web. Utiliza programas para recorrer sitios web y extraer información como texto, imágenes o enlaces. Se utiliza para diversos fines, como análisis de datos, seguimiento de precios o monitoreo de la competencia. Es importante tener en cuenta las consideraciones legales y éticas al realizar web scraping, ya que puede haber restricciones por parte de los sitios web en cuanto a la recopilación de sus datos.
 
-    
-  Con BeautifulSoup4, una popular biblioteca de Python para analizar y extraer datos de HTML y XML, el proceso de web scraping se simplifica
+  
+Con BeautifulSoup4, una popular biblioteca de Python para analizar y extraer datos de HTML y XML, el proceso de web scraping se simplifica
 
-- #### Excel con openpyxl
+#### Excel con openpyxl
   **openpyxl** es una biblioteca de Python que permite trabajar con archivos de Excel (.xlsx). Permite crear nuevos archivos de Excel, leer datos de archivos existentes, modificar archivos de Excel y escribir datos en ellos.
 
   Algunas de las funcionalidades principales de **openpyxl** incluyen:
@@ -267,24 +264,72 @@ Las variables de entorno en Python son configuraciones a nivel del sistema opera
 
   **openpyxl** es una biblioteca poderosa y ampliamente utilizada para manipular archivos de Excel en Python. Es particularmente útil para tareas como análisis de datos, generación de informes, automatización de tareas de oficina y más.
 
-- #### Selenium 
-  Es una herramienta de automatización de pruebas diseñada principalmente para realizar pruebas de software en aplicaciones web. Permite a los usuarios automatizar las acciones del navegador web, como hacer clic en enlaces y botones, rellenar formularios, navegar por páginas web y extraer información.
+ #### Selenium 
+Es una herramienta de automatización de pruebas diseñada principalmente para realizar pruebas de software en aplicaciones web. Permite a los usuarios automatizar las acciones del navegador web, como hacer clic en enlaces y botones, rellenar formularios, navegar por páginas web y extraer información.
 
-  Algunas características importantes de Selenium incluyen:
+Algunas características importantes de Selenium incluyen:
 
-  1. **Soporte multiplataforma**: Selenium es compatible con múltiples sistemas operativos como Windows, macOS y Linux.
+1. **Soporte multiplataforma**: Selenium es compatible con múltiples sistemas operativos como Windows, macOS y Linux.
 
-  2. **Soporte multi-navegador**: Puede automatizar acciones en varios navegadores web populares como Chrome, Firefox, Safari, Edge e Internet Explorer.
+2. **Soporte multi-navegador**: Puede automatizar acciones en varios navegadores web populares como Chrome, Firefox, Safari, Edge e Internet Explorer.
 
-  3. **Lenguajes de programación compatibles**: Selenium es compatible con varios lenguajes de programación, incluidos Python, Java, C#, Ruby y JavaScript.
+3. **Lenguajes de programación compatibles**: Selenium es compatible con varios lenguajes de programación, incluidos Python, Java, C#, Ruby y JavaScript.
 
-  4. **Interacciones con elementos web**: Permite interactuar con elementos HTML como clics, relleno de formularios, selección de opciones, envío de datos, etc.
+4. **Interacciones con elementos web**: Permite interactuar con elementos HTML como clics, relleno de formularios, selección de opciones, envío de datos, etc.
 
-  5. **Esperas implícitas y explícitas**: Selenium proporciona métodos para esperar la carga de elementos en una página web, lo que ayuda a manejar tiempos de espera y asegurar una ejecución estable de las pruebas.
+5. **Esperas implícitas y explícitas**: Selenium proporciona métodos para esperar la carga de elementos en una página web, lo que ayuda a manejar tiempos de espera y asegurar una ejecución estable de las pruebas.
 
-  6. **Soporte para pruebas de regresión y pruebas funcionales**: Selenium es ampliamente utilizado para realizar pruebas de regresión y pruebas funcionales en aplicaciones web para garantizar que funcionen correctamente después de los cambios en el código.
+6. **Soporte para pruebas de regresión y pruebas funcionales**: Selenium es ampliamente utilizado para realizar pruebas de regresión y pruebas funcionales en aplicaciones web para garantizar que funcionen correctamente después de los cambios en el código.
 
-  En resumen, Selenium es una herramienta poderosa y versátil para la automatización de pruebas en aplicaciones web, que ayuda a mejorar la eficiencia, la precisión y la calidad del software al permitir la ejecución de pruebas repetitivas de manera automatizada.
+En resumen, Selenium es una herramienta poderosa y versátil para la automatización de pruebas en aplicaciones web, que ayuda a mejorar la eficiencia, la precisión y la calidad del software al permitir la ejecución de pruebas repetitivas de manera automatizada.
+
 ---
-
 ## 14 Django
+Django es un framework de desarrollo web de alto nivel y de código abierto, escrito en Python. Facilita la creación rápida de aplicaciones web seguras y mantenibles al proporcionar herramientas y abstracciones para tareas comunes, como el manejo de la base de datos, la gestión de URLs y vistas, la seguridad integrada, un sistema de plantillas robusto y un sitio de administración preconstruido. 
+
+### Pasos para crear un proyecto en Django
+
+1. **Instalar Django**: Primero, asegúrate de tener Python instalado en tu sistema. Luego, puedes instalar Django utilizando pip, el gestor de paquetes de Python. Puedes hacerlo ejecutando el siguiente comando en tu terminal o línea de comandos:
+
+    ```bash
+    pip install django
+    ```
+
+2. **Crear un nuevo proyecto**: Una vez que Django esté instalado, puedes crear un nuevo proyecto Django ejecutando el siguiente comando en tu terminal o línea de comandos:
+
+    ```bash
+    django-admin startproject nombre_del_proyecto
+    ```
+
+   Donde `nombre_del_proyecto` es el nombre que deseas darle a tu proyecto. Esto creará un directorio con el nombre de tu proyecto y varios archivos y directorios dentro de él.
+
+3. **Estructura del proyecto**: Después de ejecutar el comando anterior, tendrás una estructura básica de proyecto de Django que se verá algo así:
+
+    ```plaintext
+    nombre_del_proyecto/
+    ├── nombre_del_proyecto/
+    │   ├── __init__.py
+    │   ├── settings.py
+    │   ├── urls.py
+    │   └── wsgi.py
+    └── manage.py
+    ```
+
+   - `nombre_del_proyecto/`: Este es el directorio principal de tu proyecto.
+   - `nombre_del_proyecto/__init__.py`: Un archivo vacío que le indica a Python que este directorio debe considerarse un paquete Python.
+   - `nombre_del_proyecto/settings.py`: Archivo de configuración principal de tu proyecto.
+   - `nombre_del_proyecto/urls.py`: Archivo que define las URL de tu proyecto.
+   - `nombre_del_proyecto/wsgi.py`: Archivo de punto de entrada para servidores web compatibles con WSGI.
+   - `manage.py`: Un script de línea de comandos que te permite interactuar con tu proyecto de diversas formas, como iniciar un servidor de desarrollo, crear aplicaciones, etc.
+
+4. **Configurar la base de datos (opcional)**: Si planeas utilizar una base de datos en tu proyecto, puedes configurarla en el archivo `settings.py`. Django admite varios motores de base de datos, incluyendo SQLite (predeterminado), PostgreSQL, MySQL, entre otros.
+
+5. **Iniciar el servidor de desarrollo**: Puedes iniciar el servidor de desarrollo de Django ejecutando el siguiente comando en tu terminal dentro del directorio de tu proyecto:
+
+    ```bash
+    python manage.py runserver
+    ```
+
+   Esto iniciará un servidor web local que puedes visitar en tu navegador en la dirección `http://127.0.0.1:8000/`.
+
+
